@@ -3,6 +3,8 @@ on:
   pull_request:
     branches:
       - testing-workflows
+    types:
+      - closed
 jobs:
   Lint:
     runs-on: ubuntu-latest
