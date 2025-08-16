@@ -5,7 +5,6 @@ on:
       - opened
     branches:
       - testing-workflows
-  workflow_dispatch:
 jobs:
   Lint:
     runs-on: ubuntu-latest
