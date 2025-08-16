@@ -4,7 +4,7 @@ on:
     types:
       - opened
     branches:
-      - testing-workflows
+      - main
 jobs:
   Lint:
     runs-on: ubuntu-latest
