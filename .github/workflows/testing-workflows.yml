@@ -1,10 +1,11 @@
 name: 'testing-workflows'
 on:
   pull_request:
+    types:
+      - opened
     branches:
       - testing-workflows
-    types:
-      - closed
+  workflow_dispatch:
 jobs:
   Lint:
     runs-on: ubuntu-latest
